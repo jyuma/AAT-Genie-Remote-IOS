@@ -19,6 +19,8 @@
 		520F2E1E249D35B60022313B /* AlertController+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E1D249D35B60022313B /* AlertController+Loading.swift */; };
 		520F2E20249D36080022313B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E1F249D36080022313B /* HomeViewController.swift */; };
 		5243A26D24A01EBB00E3D55E /* ResidentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243A26C24A01EBB00E3D55E /* ResidentManager.swift */; };
+		52F6A18624A048BC00C68E45 /* ImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6A18524A048BC00C68E45 /* ImagePickerDelegate.swift */; };
+		52F6A18824A04A0F00C68E45 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6A18724A04A0F00C68E45 /* ImagePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		520F2E1D249D35B60022313B /* AlertController+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+Loading.swift"; sourceTree = "<group>"; };
 		520F2E1F249D36080022313B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5243A26C24A01EBB00E3D55E /* ResidentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentManager.swift; sourceTree = "<group>"; };
+		52F6A18524A048BC00C68E45 /* ImagePickerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerDelegate.swift; sourceTree = "<group>"; };
+		52F6A18724A04A0F00C68E45 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		8DF060B7ED623CD8E84C4A26 /* Pods_AAT_Genie_Remote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AAT_Genie_Remote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96981501EDE1D80CB101B8CE /* Pods-AAT Genie Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAT Genie Remote.release.xcconfig"; path = "Target Support Files/Pods-AAT Genie Remote/Pods-AAT Genie Remote.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +96,8 @@
 			children = (
 				520F2DFF249D2C600022313B /* AppDelegate.swift */,
 				520F2E01249D2C600022313B /* SceneDelegate.swift */,
+				52F6A18524A048BC00C68E45 /* ImagePickerDelegate.swift */,
+				52F6A18724A04A0F00C68E45 /* ImagePickerViewController.swift */,
 				520F2E1D249D35B60022313B /* AlertController+Loading.swift */,
 				520F2E17249D2DFF0022313B /* SessionManager.swift */,
 				520F2E1B249D35710022313B /* SignInViewController.swift */,
@@ -222,6 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F6A18824A04A0F00C68E45 /* ImagePickerViewController.swift in Sources */,
+				52F6A18624A048BC00C68E45 /* ImagePickerDelegate.swift in Sources */,
 				520F2E20249D36080022313B /* HomeViewController.swift in Sources */,
 				5243A26D24A01EBB00E3D55E /* ResidentManager.swift in Sources */,
 				520F2E00249D2C600022313B /* AppDelegate.swift in Sources */,
