@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Auth0.plist
+   AAT Genie Remote
+
+   Created by John Charlton on 2020-06-19.
+   Copyright (c) 2020 stevorama.com. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>ClientId</key>
+        <string>O1G4509p6FcPE0RLsqfOweVHYtHWIMds</string>
+        <key>Domain</key>
+        <string>aatgenie.auth0.com</string>
+        <key>Audience</key>
+        <string>https://borgapi.azurewebsites.net</string>
+        <key>ManagementAudience</key>
+        <string>https://aatgenie.auth0.com/api/v2</string>
+        <key>UserMetadata</key>
+        <string>https://aatgenie.com/user_metadata</string>
+        <key>AppMetadata</key>
+        <string>https://aatgenie.com/app_metadata</string>
+    </dict>
+</plist>

@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4950522411E8FBECB957399D /* Pods_AAT_Genie_Remote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF060B7ED623CD8E84C4A26 /* Pods_AAT_Genie_Remote.framework */; };
+		520F2E00249D2C600022313B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2DFF249D2C600022313B /* AppDelegate.swift */; };
+		520F2E02249D2C600022313B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E01249D2C600022313B /* SceneDelegate.swift */; };
+		520F2E07249D2C600022313B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520F2E05249D2C600022313B /* Main.storyboard */; };
+		520F2E09249D2C610022313B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520F2E08249D2C610022313B /* Assets.xcassets */; };
+		520F2E0C249D2C610022313B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520F2E0A249D2C610022313B /* LaunchScreen.storyboard */; };
+		520F2E14249D2D510022313B /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520F2E13249D2D510022313B /* Auth0.plist */; };
+		520F2E18249D2DFF0022313B /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E17249D2DFF0022313B /* SessionManager.swift */; };
+		520F2E1C249D35710022313B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E1B249D35710022313B /* SignInViewController.swift */; };
+		520F2E1E249D35B60022313B /* AlertController+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E1D249D35B60022313B /* AlertController+Loading.swift */; };
+		520F2E20249D36080022313B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520F2E1F249D36080022313B /* HomeViewController.swift */; };
+		5243A26D24A01EBB00E3D55E /* ResidentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243A26C24A01EBB00E3D55E /* ResidentManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1412BFA1319030C31F06D25A /* Pods-AAT Genie Remote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAT Genie Remote.debug.xcconfig"; path = "Target Support Files/Pods-AAT Genie Remote/Pods-AAT Genie Remote.debug.xcconfig"; sourceTree = "<group>"; };
+		520F2DFC249D2C600022313B /* AAT Genie Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AAT Genie Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520F2DFF249D2C600022313B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		520F2E01249D2C600022313B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		520F2E06249D2C600022313B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520F2E08249D2C610022313B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520F2E0B249D2C610022313B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520F2E0D249D2C610022313B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520F2E13249D2D510022313B /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		520F2E17249D2DFF0022313B /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		520F2E1B249D35710022313B /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		520F2E1D249D35B60022313B /* AlertController+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+Loading.swift"; sourceTree = "<group>"; };
+		520F2E1F249D36080022313B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5243A26C24A01EBB00E3D55E /* ResidentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentManager.swift; sourceTree = "<group>"; };
+		8DF060B7ED623CD8E84C4A26 /* Pods_AAT_Genie_Remote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AAT_Genie_Remote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96981501EDE1D80CB101B8CE /* Pods-AAT Genie Remote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AAT Genie Remote.release.xcconfig"; path = "Target Support Files/Pods-AAT Genie Remote/Pods-AAT Genie Remote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520F2DF9249D2C600022313B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4950522411E8FBECB957399D /* Pods_AAT_Genie_Remote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D5A119FCF31F9685A099C7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1412BFA1319030C31F06D25A /* Pods-AAT Genie Remote.debug.xcconfig */,
+				96981501EDE1D80CB101B8CE /* Pods-AAT Genie Remote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D0E877945C6A6C2EDDE17A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF060B7ED623CD8E84C4A26 /* Pods_AAT_Genie_Remote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520F2DF3249D2C600022313B = {
+			isa = PBXGroup;
+			children = (
+				520F2DFE249D2C600022313B /* AAT Genie Remote */,
+				520F2DFD249D2C600022313B /* Products */,
+				2D5A119FCF31F9685A099C7E /* Pods */,
+				3D0E877945C6A6C2EDDE17A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		520F2DFD249D2C600022313B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520F2DFC249D2C600022313B /* AAT Genie Remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520F2DFE249D2C600022313B /* AAT Genie Remote */ = {
+			isa = PBXGroup;
+			children = (
+				520F2DFF249D2C600022313B /* AppDelegate.swift */,
+				520F2E01249D2C600022313B /* SceneDelegate.swift */,
+				520F2E1D249D35B60022313B /* AlertController+Loading.swift */,
+				520F2E17249D2DFF0022313B /* SessionManager.swift */,
+				520F2E1B249D35710022313B /* SignInViewController.swift */,
+				520F2E1F249D36080022313B /* HomeViewController.swift */,
+				5243A26C24A01EBB00E3D55E /* ResidentManager.swift */,
+				520F2E08249D2C610022313B /* Assets.xcassets */,
+				520F2E05249D2C600022313B /* Main.storyboard */,
+				520F2E0A249D2C610022313B /* LaunchScreen.storyboard */,
+				520F2E0D249D2C610022313B /* Info.plist */,
+				520F2E13249D2D510022313B /* Auth0.plist */,
+			);
+			path = "AAT Genie Remote";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520F2DFB249D2C600022313B /* AAT Genie Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520F2E10249D2C610022313B /* Build configuration list for PBXNativeTarget "AAT Genie Remote" */;
+			buildPhases = (
+				417671FADBE01834C7FBCF12 /* [CP] Check Pods Manifest.lock */,
+				520F2DF8249D2C600022313B /* Sources */,
+				520F2DF9249D2C600022313B /* Frameworks */,
+				520F2DFA249D2C600022313B /* Resources */,
+				D0A3860EE4749ACDEF24ABA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AAT Genie Remote";
+			productName = "AAT Genie Remote";
+			productReference = 520F2DFC249D2C600022313B /* AAT Genie Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520F2DF4249D2C600022313B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = stevorama.com;
+				TargetAttributes = {
+					520F2DFB249D2C600022313B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 520F2DF7249D2C600022313B /* Build configuration list for PBXProject "AAT Genie Remote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520F2DF3249D2C600022313B;
+			productRefGroup = 520F2DFD249D2C600022313B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520F2DFB249D2C600022313B /* AAT Genie Remote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520F2DFA249D2C600022313B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520F2E0C249D2C610022313B /* LaunchScreen.storyboard in Resources */,
+				520F2E09249D2C610022313B /* Assets.xcassets in Resources */,
+				520F2E07249D2C600022313B /* Main.storyboard in Resources */,
+				520F2E14249D2D510022313B /* Auth0.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		417671FADBE01834C7FBCF12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AAT Genie Remote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A3860EE4749ACDEF24ABA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AAT Genie Remote/Pods-AAT Genie Remote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AAT Genie Remote/Pods-AAT Genie Remote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AAT Genie Remote/Pods-AAT Genie Remote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520F2DF8249D2C600022313B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520F2E20249D36080022313B /* HomeViewController.swift in Sources */,
+				5243A26D24A01EBB00E3D55E /* ResidentManager.swift in Sources */,
+				520F2E00249D2C600022313B /* AppDelegate.swift in Sources */,
+				520F2E02249D2C600022313B /* SceneDelegate.swift in Sources */,
+				520F2E18249D2DFF0022313B /* SessionManager.swift in Sources */,
+				520F2E1E249D35B60022313B /* AlertController+Loading.swift in Sources */,
+				520F2E1C249D35710022313B /* SignInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520F2E05249D2C600022313B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520F2E06249D2C600022313B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520F2E0A249D2C610022313B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520F2E0B249D2C610022313B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520F2E0E249D2C610022313B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		520F2E0F249D2C610022313B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520F2E11249D2C610022313B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1412BFA1319030C31F06D25A /* Pods-AAT Genie Remote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AAT Genie Remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genie.aat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520F2E12249D2C610022313B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96981501EDE1D80CB101B8CE /* Pods-AAT Genie Remote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AAT Genie Remote/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.genie.aat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520F2DF7249D2C600022313B /* Build configuration list for PBXProject "AAT Genie Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520F2E0E249D2C610022313B /* Debug */,
+				520F2E0F249D2C610022313B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520F2E10249D2C610022313B /* Build configuration list for PBXNativeTarget "AAT Genie Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520F2E11249D2C610022313B /* Debug */,
+				520F2E12249D2C610022313B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520F2DF4249D2C600022313B /* Project object */;
+}
